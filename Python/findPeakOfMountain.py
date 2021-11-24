@@ -15,4 +15,6 @@ def peakIndexInMountainArray( arr):
             # we are in asc part of array
             start = mid +1
     return arr[start]
-        
+
+
+print(peakIndexInMountainArray([-1,3,2,1]))
