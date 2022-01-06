@@ -43,7 +43,7 @@ def binarySearchRow(nums ,row, target):
             start  = mid +1
     return -1
         
-
+#for seq number in entire matrix
 def findIn2DArray2(nums , target):
     row = 0
     col = len(nums[0])-1
